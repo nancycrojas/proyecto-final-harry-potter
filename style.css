@@ -11,11 +11,11 @@ body{
 }
 
 h1{
-    margin-left: 40px;
+    margin-left: 15px;
     margin-top: 25px;
     font-size: 30px;
     color: #7F0909;
-    text-shadow: -3px 3px 6px rgba(0,0,0,0.6);
+    text-shadow: 1px -1px 3px rgba(0,0,0,0.6);
 }
 
 h2{
@@ -58,7 +58,7 @@ a{
     padding: 15px 0px;
     width: 290px;
     height: 400px;
-    box-shadow: 1px 5px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 4px rgba(0,0,0,0.41);;
     overflow: hidden;
 }
 
@@ -115,7 +115,7 @@ a{
     padding: 15px 0px;
     width: 290px;
     height: 400px;
-    box-shadow: 1px 5px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 4px rgba(0,0,0,0.41);
     overflow: hidden;
 }
 
@@ -142,7 +142,7 @@ a{
     padding: 15px 0px;
     width: 290px;
     height: 400px;
-    box-shadow: 1px 5px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 4px rgba(0,0,0,0.41);
     overflow: hidden;
 }
 
@@ -152,7 +152,7 @@ a{
 }
 
 .huf{
-    ccursor: pointer;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -169,7 +169,7 @@ a{
     padding: 15px 0px;
     width: 290px;
     height: 400px;
-    box-shadow: 1px 5px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 4px rgba(0,0,0,0.41);
     overflow: hidden;
 }
 
@@ -196,7 +196,7 @@ a{
     padding: 15px 0px;
     width: 290px;
     height: 400px;
-    box-shadow: 1px 5px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 4px rgba(0,0,0,0.41);
     overflow: hidden;
 }
 
