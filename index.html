@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Proyecto final - Harry Potter</title>
+    <link rel="icon" href="./images/logo.png" type="image/png">
+</head>
+<body>
+
+    <header id="inicio">
+      <!--parrallax-materialize--->
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="./images/Wand_experience_Ollivanders_exterior__Normal_width.jpg" style="opacity: 1; transform: translate3d(-50%, 348.454px, 0px);"></div>
+      </div>
+    
+      <!--nav-materialize-->
+      <nav>
+        <div class="nav-wrapper mi-nav">
+          <h1 href="#!" class="brand-logo mi-logo">Harry Potter</h1>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#casa" class="search">BUSCAR POR CASA</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+      <main>
+        <section>
+          <div id="tarjetas">
+            
+          </div>
+        </section>
+
+          <div>
+            <h2>Casas</h2>
+          </div>
+      
+          <div class="containers">
+          <div class="casas" id="casa">
+            <figure>
+              <a href="./gryffindor.html" target="_blank">
+               <img class="casa-1" src="./images/gryffindor.png" alt="" width="200"></a>
+             </figure>
+          </div>
+          <div class="casas">
+             <figure>
+              <a href="./slytherin.html" target="_blank">
+              <img class="casa-1" src="./images/slytherin.png" alt="" width="200"></a>
+             </figure>
+           </div>
+           <div class="casas">
+             <figure>
+              <a href="./hufflepuff.html" target="_blank">
+              <img class="casa-1" src="./images/hufflepuff.png" alt="" width="200"></a>
+             </figure>
+          </div>
+           <div class="casas">
+            <figure>
+              <a href="./ravenclaw.html" target="_blank">
+              <img class="casa-1" src="./images/ravenclaw.png" alt="" width="200"></a>
+            </figure>
+           </div>
+         </div>
+
+         <a class="btn" href="#inicio" role="button">Volver arriba</a>
+
+      </main>
+
+      <!--footer-materialize-->
+      <footer class="page-footer mi-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Harry Potter</h5>
+                <p class="grey-text text-lighten-4">“La felicidad se puede encontrar hasta en los más oscuros momentos,<br>si somos capaces de usar bien la luz”.
+                </p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Seguinos</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/HarryPotterPaginaOficialparaArgentina/"   target="_blank">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/hogwartssite" target="_blank">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2022 Proyecto final ADA Tigre - <a href="https://www.linkedin.com/in/nancy-clarisa-rojas-09500b241/" target="_blank">Nancy Rojas</a>⚡
+            </div>
+          </div>
+        </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--parrallax-materialize-->
+    <script>document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);});</script>
+    <script src="./app.js"></script>
+</body>
+</html>
