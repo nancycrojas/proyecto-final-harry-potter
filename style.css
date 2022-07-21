@@ -10,18 +10,28 @@ body{
     padding: 0px 70px 30px;
 }
 
-.mi-nav{
-    background-color: #7F0909;
-}
-
 h1{
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #7F0909;
 }
 
-.search{
-    margin-right: 30px;
-    font-size: 20px;
+h2{
+    background-color: #7F0909;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.mi-nav{
+    background-color: #7F0909;
 }
 
 #tarjetas{
@@ -56,14 +66,6 @@ h1{
     transform: scale(0.9);
     transition-duration: .5s;
     filter: grayscale(90%); 
-}
-
-h2{
-    background-color: #7F0909;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
 }
 
 .containers{
@@ -197,17 +199,11 @@ h2{
     overflow: hidden;
 }
 
-.btn{
-    background-color:#7F0909;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
-    display: flex;
-    justify-content: flex-end;
+h3{
+    background-color: #7F0909;
     text-align: center;
-    flex-wrap: wrap;
-    margin: 10px 69px 20px 1370px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .mi-footer{
