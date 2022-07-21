@@ -18,7 +18,7 @@ const printData = (arr) => {
         str = str + `
         <div class="tarjeta">
             <figure containerImg>
-              <img src="${image}" alt="${name}" width="250">
+              <img src="${image}" alt="${name}" width="160">
             </figure>
             <p>${name}</p>
             <p>${gender}</p>
@@ -50,7 +50,7 @@ const casaData = (arr) => {
         str = str + `
         <div class="gry">
             <figure>
-              <img src="${image}" alt="${name}" width="250">
+              <img src="${image}" alt="${name}" width="160">
             </figure>
             <p>${name}</p>
             <p>(${actor})</p>
@@ -81,7 +81,7 @@ const casaDat = (arr) => {
         str = str + `
         <div class="sly">
             <figure>
-              <img src="${image}" alt="${name}" width="250">
+              <img src="${image}" alt="${name}" width="160">
             </figure>
             <p>${name}</p>
             <p>(${actor})</p>
@@ -112,7 +112,7 @@ const casaDa = (arr) => {
         str = str + `
         <div class="huf">
             <figure>
-              <img src="${image}" alt="${name}" width="230">
+              <img src="${image}" alt="${name}" width="140">
             </figure>
             <p>${name}</p>
             <p>(${actor})</p>
@@ -144,7 +144,7 @@ const casaD = (arr) => {
         str = str + `
         <div class="rav">
             <figure>
-              <img src="${image}" alt="${name}" width="250">
+              <img src="${image}" alt="${name}" width="160">
             </figure>
             <p>${name}</p>
             <p>(${actor})</p>
